@@ -4,7 +4,7 @@ MAINTAINER nahidul kibria <nahidupa@gmail.com>
 #libswitch-perl libssl-dev dotdotpwn dependency
 
 RUN apt-get update\
-  && apt-get install --assume-yes libsqlite3-dev libxslt-dev libxml2-dev zlib1g-dev gcc
+  && apt-get install --assume-yes libsqlite3-dev libxslt-dev libxml2-dev zlib1g-dev gcc\
   && apt-get clean
   
 RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
